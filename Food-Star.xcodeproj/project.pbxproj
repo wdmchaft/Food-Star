@@ -37,20 +37,20 @@
 		8FCEEDC1155F338F00516B91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FCEEDC3155F338F00516B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8FCEEDC5155F338F00516B91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8FCEEDC9155F338F00516B91 /* Food-Star-Info.plist */ = {isa = PBXFileReference; path = "Food-Star-Info.plist"; sourceTree = "<group>"; };
+		8FCEEDC9155F338F00516B91 /* Food-Star-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Food-Star-Info.plist"; sourceTree = "<group>"; };
 		8FCEEDCB155F338F00516B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FCEEDCD155F338F00516B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8FCEEDCF155F338F00516B91 /* Food-Star-Prefix.pch */ = {isa = PBXFileReference; path = "Food-Star-Prefix.pch"; sourceTree = "<group>"; };
-		8FCEEDD0155F338F00516B91 /* Food_StarAppDelegate.h */ = {isa = PBXFileReference; path = Food_StarAppDelegate.h; sourceTree = "<group>"; };
+		8FCEEDCF155F338F00516B91 /* Food-Star-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Food-Star-Prefix.pch"; sourceTree = "<group>"; };
+		8FCEEDD0155F338F00516B91 /* Food_StarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food_StarAppDelegate.h; sourceTree = "<group>"; };
 		8FCEEDD1155F338F00516B91 /* Food_StarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_StarAppDelegate.m; sourceTree = "<group>"; };
 		8FCEEDD4155F338F00516B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8FCEEDD6155F338F00516B91 /* Food_StarViewController.h */ = {isa = PBXFileReference; path = Food_StarViewController.h; sourceTree = "<group>"; };
+		8FCEEDD6155F338F00516B91 /* Food_StarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food_StarViewController.h; sourceTree = "<group>"; };
 		8FCEEDD7155F338F00516B91 /* Food_StarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_StarViewController.m; sourceTree = "<group>"; };
 		8FCEEDDE155F338F00516B91 /* Food-StarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food-StarTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCEEDDF155F338F00516B91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8FCEEDE7155F338F00516B91 /* Food-StarTests-Info.plist */ = {isa = PBXFileReference; path = "Food-StarTests-Info.plist"; sourceTree = "<group>"; };
+		8FCEEDE7155F338F00516B91 /* Food-StarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Food-StarTests-Info.plist"; sourceTree = "<group>"; };
 		8FCEEDE9155F338F00516B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8FCEEDEB155F338F00516B91 /* Food_StarTests.h */ = {isa = PBXFileReference; path = Food_StarTests.h; sourceTree = "<group>"; };
+		8FCEEDEB155F338F00516B91 /* Food_StarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food_StarTests.h; sourceTree = "<group>"; };
 		8FCEEDEC155F338F00516B91 /* Food_StarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_StarTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
