@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8FCEEDC2155F338F00516B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC1155F338F00516B91 /* UIKit.framework */; };
 		8FCEEDC4155F338F00516B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC3155F338F00516B91 /* Foundation.framework */; };
-		8FCEEDC6155F338F00516B91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC5155F338F00516B91 /* CoreGraphics.framework */; };
 		8FCEEDCC155F338F00516B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEDCA155F338F00516B91 /* InfoPlist.strings */; };
 		8FCEEDCE155F338F00516B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEEDCD155F338F00516B91 /* main.m */; };
 		8FCEEDD2155F338F00516B91 /* Food_StarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEEDD1155F338F00516B91 /* Food_StarAppDelegate.m */; };
@@ -35,8 +34,8 @@
 		8FCEEE21155F345100516B91 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEE1D155F345100516B91 /* libTestFlight.a */; };
 		8FCEEE22155F345100516B91 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEE1E155F345100516B91 /* README.txt */; };
 		8FCEEE23155F345100516B91 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEE1F155F345100516B91 /* release_notes.txt */; };
-		8FCEEE25155F346400516B91 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEE24155F346400516B91 /* CoreData.framework */; };
 		8FCEEE27155F347F00516B91 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEE26155F347F00516B91 /* libz.dylib */; };
+		8FD3F64C155F35DC00E282AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD3F64B155F35DC00E282AE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,8 +97,8 @@
 		8FCEEE1E155F345100516B91 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		8FCEEE1F155F345100516B91 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
 		8FCEEE20155F345100516B91 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		8FCEEE24155F346400516B91 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8FCEEE26155F347F00516B91 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8FD3F64B155F35DC00E282AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +106,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD3F64C155F35DC00E282AE /* CoreLocation.framework in Frameworks */,
 				8FCEEE27155F347F00516B91 /* libz.dylib in Frameworks */,
-				8FCEEE25155F346400516B91 /* CoreData.framework in Frameworks */,
 				8FCEEDC2155F338F00516B91 /* UIKit.framework in Frameworks */,
 				8FCEEDC4155F338F00516B91 /* Foundation.framework in Frameworks */,
-				8FCEEDC6155F338F00516B91 /* CoreGraphics.framework in Frameworks */,
 				8FCEEE21155F345100516B91 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +151,7 @@
 		8FCEEDC0155F338F00516B91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8FCEEE24155F346400516B91 /* CoreData.framework */,
+				8FD3F64B155F35DC00E282AE /* CoreLocation.framework */,
 				8FCEEDC1155F338F00516B91 /* UIKit.framework */,
 				8FCEEDC3155F338F00516B91 /* Foundation.framework */,
 				8FCEEDC5155F338F00516B91 /* CoreGraphics.framework */,
@@ -550,6 +548,7 @@
 				8FCEEDF2155F338F00516B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FCEEDF3155F338F00516B91 /* Build configuration list for PBXNativeTarget "Food-StarTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +557,7 @@
 				8FCEEDF5155F338F00516B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

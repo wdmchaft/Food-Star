@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface Food_StarAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    CLLocationManager *locationManager;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

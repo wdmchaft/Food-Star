@@ -16,8 +16,34 @@
 {
     // Override point for customization after application launch.
     [TestFlight takeOff:@"a6af4a683a097e45ab89581f95d28e75_MzE4MTAyMDExLTA5LTI4IDE4OjUzOjM4LjI2MTMwMg"];
+    //[TestFlight passCheckpoint:@"Start Application"];
     
+    // ------------------------ CoreLocation -----------------------
+    // Create location manager object
+    locationManager = [[CLLocationManager alloc] init];
+    [locationManager setDelegate:self];
+    // We want all results from the location manager
+    [locationManager setDistanceFilter:kCLDistanceFilterNone];
+    // And we want it to be as accurate as possible
+    // regardless of how much time/power it takes
+    [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+    // Tell our manager to start looking for its location immediately
+    [locationManager startUpdatingLocation];
     return YES;
+}
+
+// Core Location
+- (void)locationManager:(CLLocationManager *)manager
+    didUpdateToLocation:(CLLocation *)newLocation
+           fromLocation:(CLLocation *)oldLocation
+{
+    NSLog(@"%@", newLocation);
+}
+
+- (void)locationManager:(CLLocationManager *)manager
+       didFailWithError:(NSError *)error
+{
+    NSLog(@"Could not find location: %@", error);
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
