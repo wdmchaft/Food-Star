@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FCEEDC2155F338F00516B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC1155F338F00516B91 /* UIKit.framework */; };
+		8FCEEDC4155F338F00516B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC3155F338F00516B91 /* Foundation.framework */; };
+		8FCEEDC6155F338F00516B91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC5155F338F00516B91 /* CoreGraphics.framework */; };
+		8FCEEDCC155F338F00516B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEDCA155F338F00516B91 /* InfoPlist.strings */; };
+		8FCEEDCE155F338F00516B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEEDCD155F338F00516B91 /* main.m */; };
+		8FCEEDD2155F338F00516B91 /* Food_StarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEEDD1155F338F00516B91 /* Food_StarAppDelegate.m */; };
+		8FCEEDD5155F338F00516B91 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEDD3155F338F00516B91 /* MainStoryboard.storyboard */; };
+		8FCEEDD8155F338F00516B91 /* Food_StarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEEDD7155F338F00516B91 /* Food_StarViewController.m */; };
+		8FCEEDE0155F338F00516B91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDDF155F338F00516B91 /* SenTestingKit.framework */; };
+		8FCEEDE1155F338F00516B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC1155F338F00516B91 /* UIKit.framework */; };
+		8FCEEDE2155F338F00516B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC3155F338F00516B91 /* Foundation.framework */; };
+		8FCEEDEA155F338F00516B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEDE8155F338F00516B91 /* InfoPlist.strings */; };
+		8FCEEDED155F338F00516B91 /* Food_StarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCEEDEC155F338F00516B91 /* Food_StarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FCEEDE3155F338F00516B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FCEEDB4155F338E00516B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCEEDBC155F338F00516B91;
+			remoteInfo = "Food-Star";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FCEEDBD155F338F00516B91 /* Food-Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCEEDC1155F338F00516B91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FCEEDC3155F338F00516B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FCEEDC5155F338F00516B91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FCEEDC9155F338F00516B91 /* Food-Star-Info.plist */ = {isa = PBXFileReference; path = "Food-Star-Info.plist"; sourceTree = "<group>"; };
+		8FCEEDCB155F338F00516B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FCEEDCD155F338F00516B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FCEEDCF155F338F00516B91 /* Food-Star-Prefix.pch */ = {isa = PBXFileReference; path = "Food-Star-Prefix.pch"; sourceTree = "<group>"; };
+		8FCEEDD0155F338F00516B91 /* Food_StarAppDelegate.h */ = {isa = PBXFileReference; path = Food_StarAppDelegate.h; sourceTree = "<group>"; };
+		8FCEEDD1155F338F00516B91 /* Food_StarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_StarAppDelegate.m; sourceTree = "<group>"; };
+		8FCEEDD4155F338F00516B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8FCEEDD6155F338F00516B91 /* Food_StarViewController.h */ = {isa = PBXFileReference; path = Food_StarViewController.h; sourceTree = "<group>"; };
+		8FCEEDD7155F338F00516B91 /* Food_StarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_StarViewController.m; sourceTree = "<group>"; };
+		8FCEEDDE155F338F00516B91 /* Food-StarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food-StarTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCEEDDF155F338F00516B91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8FCEEDE7155F338F00516B91 /* Food-StarTests-Info.plist */ = {isa = PBXFileReference; path = "Food-StarTests-Info.plist"; sourceTree = "<group>"; };
+		8FCEEDE9155F338F00516B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FCEEDEB155F338F00516B91 /* Food_StarTests.h */ = {isa = PBXFileReference; path = Food_StarTests.h; sourceTree = "<group>"; };
+		8FCEEDEC155F338F00516B91 /* Food_StarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_StarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FCEEDBA155F338F00516B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEEDC2155F338F00516B91 /* UIKit.framework in Frameworks */,
+				8FCEEDC4155F338F00516B91 /* Foundation.framework in Frameworks */,
+				8FCEEDC6155F338F00516B91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEEDDA155F338F00516B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEEDE0155F338F00516B91 /* SenTestingKit.framework in Frameworks */,
+				8FCEEDE1155F338F00516B91 /* UIKit.framework in Frameworks */,
+				8FCEEDE2155F338F00516B91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FCEEDB2155F338E00516B91 = {
+			isa = PBXGroup;
+			children = (
+				8FCEEDC7155F338F00516B91 /* Food-Star */,
+				8FCEEDE5155F338F00516B91 /* Food-StarTests */,
+				8FCEEDC0155F338F00516B91 /* Frameworks */,
+				8FCEEDBE155F338F00516B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FCEEDBE155F338F00516B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEEDBD155F338F00516B91 /* Food-Star.app */,
+				8FCEEDDE155F338F00516B91 /* Food-StarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FCEEDC0155F338F00516B91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEEDC1155F338F00516B91 /* UIKit.framework */,
+				8FCEEDC3155F338F00516B91 /* Foundation.framework */,
+				8FCEEDC5155F338F00516B91 /* CoreGraphics.framework */,
+				8FCEEDDF155F338F00516B91 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FCEEDC7155F338F00516B91 /* Food-Star */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEEDD0155F338F00516B91 /* Food_StarAppDelegate.h */,
+				8FCEEDD1155F338F00516B91 /* Food_StarAppDelegate.m */,
+				8FCEEDD3155F338F00516B91 /* MainStoryboard.storyboard */,
+				8FCEEDD6155F338F00516B91 /* Food_StarViewController.h */,
+				8FCEEDD7155F338F00516B91 /* Food_StarViewController.m */,
+				8FCEEDC8155F338F00516B91 /* Supporting Files */,
+			);
+			path = "Food-Star";
+			sourceTree = "<group>";
+		};
+		8FCEEDC8155F338F00516B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEEDC9155F338F00516B91 /* Food-Star-Info.plist */,
+				8FCEEDCA155F338F00516B91 /* InfoPlist.strings */,
+				8FCEEDCD155F338F00516B91 /* main.m */,
+				8FCEEDCF155F338F00516B91 /* Food-Star-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FCEEDE5155F338F00516B91 /* Food-StarTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEEDEB155F338F00516B91 /* Food_StarTests.h */,
+				8FCEEDEC155F338F00516B91 /* Food_StarTests.m */,
+				8FCEEDE6155F338F00516B91 /* Supporting Files */,
+			);
+			path = "Food-StarTests";
+			sourceTree = "<group>";
+		};
+		8FCEEDE6155F338F00516B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FCEEDE7155F338F00516B91 /* Food-StarTests-Info.plist */,
+				8FCEEDE8155F338F00516B91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FCEEDBC155F338F00516B91 /* Food-Star */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCEEDF0155F338F00516B91 /* Build configuration list for PBXNativeTarget "Food-Star" */;
+			buildPhases = (
+				8FCEEDB9155F338F00516B91 /* Sources */,
+				8FCEEDBA155F338F00516B91 /* Frameworks */,
+				8FCEEDBB155F338F00516B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food-Star";
+			productName = "Food-Star";
+			productReference = 8FCEEDBD155F338F00516B91 /* Food-Star.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FCEEDDD155F338F00516B91 /* Food-StarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FCEEDF3155F338F00516B91 /* Build configuration list for PBXNativeTarget "Food-StarTests" */;
+			buildPhases = (
+				8FCEEDD9155F338F00516B91 /* Sources */,
+				8FCEEDDA155F338F00516B91 /* Frameworks */,
+				8FCEEDDB155F338F00516B91 /* Resources */,
+				8FCEEDDC155F338F00516B91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FCEEDE4155F338F00516B91 /* PBXTargetDependency */,
+			);
+			name = "Food-StarTests";
+			productName = "Food-StarTests";
+			productReference = 8FCEEDDE155F338F00516B91 /* Food-StarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FCEEDB4155F338E00516B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Food-Star";
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8FCEEDB7155F338E00516B91 /* Build configuration list for PBXProject "Food-Star" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FCEEDB2155F338E00516B91;
+			productRefGroup = 8FCEEDBE155F338F00516B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCEEDBC155F338F00516B91 /* Food-Star */,
+				8FCEEDDD155F338F00516B91 /* Food-StarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FCEEDBB155F338F00516B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEEDCC155F338F00516B91 /* InfoPlist.strings in Resources */,
+				8FCEEDD5155F338F00516B91 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEEDDB155F338F00516B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEEDEA155F338F00516B91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FCEEDDC155F338F00516B91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FCEEDB9155F338F00516B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEEDCE155F338F00516B91 /* main.m in Sources */,
+				8FCEEDD2155F338F00516B91 /* Food_StarAppDelegate.m in Sources */,
+				8FCEEDD8155F338F00516B91 /* Food_StarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FCEEDD9155F338F00516B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FCEEDED155F338F00516B91 /* Food_StarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FCEEDE4155F338F00516B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FCEEDBC155F338F00516B91 /* Food-Star */;
+			targetProxy = 8FCEEDE3155F338F00516B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FCEEDCA155F338F00516B91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCEEDCB155F338F00516B91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FCEEDD3155F338F00516B91 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCEEDD4155F338F00516B91 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8FCEEDE8155F338F00516B91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FCEEDE9155F338F00516B91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FCEEDEE155F338F00516B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FCEEDEF155F338F00516B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FCEEDF1155F338F00516B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food-Star/Food-Star-Prefix.pch";
+				INFOPLIST_FILE = "Food-Star/Food-Star-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FCEEDF2155F338F00516B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food-Star/Food-Star-Prefix.pch";
+				INFOPLIST_FILE = "Food-Star/Food-Star-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8FCEEDF4155F338F00516B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Food-Star.app/Food-Star";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food-Star/Food-Star-Prefix.pch";
+				INFOPLIST_FILE = "Food-StarTests/Food-StarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8FCEEDF5155F338F00516B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Food-Star.app/Food-Star";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Food-Star/Food-Star-Prefix.pch";
+				INFOPLIST_FILE = "Food-StarTests/Food-StarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FCEEDB7155F338E00516B91 /* Build configuration list for PBXProject "Food-Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCEEDEE155F338F00516B91 /* Debug */,
+				8FCEEDEF155F338F00516B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FCEEDF0155F338F00516B91 /* Build configuration list for PBXNativeTarget "Food-Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCEEDF1155F338F00516B91 /* Debug */,
+				8FCEEDF2155F338F00516B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FCEEDF3155F338F00516B91 /* Build configuration list for PBXNativeTarget "Food-StarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FCEEDF4155F338F00516B91 /* Debug */,
+				8FCEEDF5155F338F00516B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FCEEDB4155F338E00516B91 /* Project object */;
+}
