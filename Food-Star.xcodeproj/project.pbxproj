@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FA65CB2155F9E9300D4FC83 /* logo57*57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA65CB1155F9E9300D4FC83 /* logo57*57.png */; };
+		8FA65CB4155F9EA100D4FC83 /* logo114*114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA65CB3155F9EA100D4FC83 /* logo114*114.png */; };
 		8FCEEDC2155F338F00516B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC1155F338F00516B91 /* UIKit.framework */; };
 		8FCEEDC4155F338F00516B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC3155F338F00516B91 /* Foundation.framework */; };
 		8FCEEDCC155F338F00516B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FCEEDCA155F338F00516B91 /* InfoPlist.strings */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FA65CB1155F9E9300D4FC83 /* logo57*57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo57*57.png"; sourceTree = "<group>"; };
+		8FA65CB3155F9EA100D4FC83 /* logo114*114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo114*114.png"; sourceTree = "<group>"; };
 		8FCEEDBD155F338F00516B91 /* Food-Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FCEEDC1155F338F00516B91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FCEEDC3155F338F00516B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -127,9 +131,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FA65CB5155F9EFF00D4FC83 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				8FA65CB3155F9EA100D4FC83 /* logo114*114.png */,
+				8FA65CB1155F9E9300D4FC83 /* logo57*57.png */,
+			);
+			name = Logo;
+			sourceTree = "<group>";
+		};
 		8FCEEDB2155F338E00516B91 = {
 			isa = PBXGroup;
 			children = (
+				8FA65CB5155F9EFF00D4FC83 /* Logo */,
 				8FCEEE1C155F343B00516B91 /* TestFlight */,
 				8FCEEE1B155F342E00516B91 /* JSON */,
 				8FCEEDC7155F338F00516B91 /* Food-Star */,
@@ -322,6 +336,8 @@
 				8FCEEDD5155F338F00516B91 /* MainStoryboard.storyboard in Resources */,
 				8FCEEE22155F345100516B91 /* README.txt in Resources */,
 				8FCEEE23155F345100516B91 /* release_notes.txt in Resources */,
+				8FA65CB2155F9E9300D4FC83 /* logo57*57.png in Resources */,
+				8FA65CB4155F9EA100D4FC83 /* logo114*114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
