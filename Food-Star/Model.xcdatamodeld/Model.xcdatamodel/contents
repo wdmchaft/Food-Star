@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Location" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="plz" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="restaurant" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="openingHours" inverseEntity="Restaurant" syncable="YES"/>
+    </entity>
+    <entity name="Meal" syncable="YES">
+        <attribute name="descriptionT" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="restaurant" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="meals" inverseEntity="Restaurant" syncable="YES"/>
+    </entity>
+    <entity name="OpeningHours" syncable="YES">
+        <attribute name="close" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="open" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="restDay" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="restaurant" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Restaurant" inverseName="location" inverseEntity="Restaurant" syncable="YES"/>
+    </entity>
+    <entity name="Restaurant" syncable="YES">
+        <relationship name="location" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="OpeningHours" inverseName="restaurant" inverseEntity="OpeningHours" syncable="YES"/>
+        <relationship name="meals" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Meal" inverseName="restaurant" inverseEntity="Meal" syncable="YES"/>
+        <relationship name="openingHours" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="restaurant" inverseEntity="Location" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Restaurant" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="OpeningHours" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Meal" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Location" positionX="160" positionY="192" width="128" height="135"/>
+    </elements>
+</model>
