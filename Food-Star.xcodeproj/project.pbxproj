@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1B0791157574D40018BE17 /* Food-StarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B0790157574D40018BE17 /* Food-StarTableViewController.m */; };
+		8F1B07961575757B0018BE17 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B07941575757B0018BE17 /* Model.xcdatamodeld */; };
+		8F1B0799157577BE0018BE17 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B0798157577BE0018BE17 /* Restaurant.m */; };
+		8F1B079C157577D10018BE17 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B079B157577D10018BE17 /* Location.m */; };
+		8F1B079F157577E10018BE17 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B079E157577E10018BE17 /* Meal.m */; };
+		8F5003C41575800E00AF1586 /* OpeningHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5003C31575800E00AF1586 /* OpeningHours.m */; };
 		8FA65CB2155F9E9300D4FC83 /* logo57*57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA65CB1155F9E9300D4FC83 /* logo57*57.png */; };
 		8FA65CB4155F9EA100D4FC83 /* logo114*114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA65CB3155F9EA100D4FC83 /* logo114*114.png */; };
 		8FCEEDC2155F338F00516B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCEEDC1155F338F00516B91 /* UIKit.framework */; };
@@ -51,6 +57,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F1B078F157574D40018BE17 /* Food-StarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Food-StarTableViewController.h"; sourceTree = "<group>"; };
+		8F1B0790157574D40018BE17 /* Food-StarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Food-StarTableViewController.m"; sourceTree = "<group>"; };
+		8F1B07951575757B0018BE17 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8F1B0797157577BE0018BE17 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		8F1B0798157577BE0018BE17 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		8F1B079A157577D10018BE17 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		8F1B079B157577D10018BE17 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		8F1B079D157577E10018BE17 /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		8F1B079E157577E10018BE17 /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		8F5003C21575800E00AF1586 /* OpeningHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningHours.h; sourceTree = "<group>"; };
+		8F5003C31575800E00AF1586 /* OpeningHours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningHours.m; sourceTree = "<group>"; };
 		8FA65CB1155F9E9300D4FC83 /* logo57*57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo57*57.png"; sourceTree = "<group>"; };
 		8FA65CB3155F9EA100D4FC83 /* logo114*114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo114*114.png"; sourceTree = "<group>"; };
 		8FCEEDBD155F338F00516B91 /* Food-Star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-Star.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +148,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F1B0793157575660018BE17 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B07941575757B0018BE17 /* Model.xcdatamodeld */,
+				8F1B0797157577BE0018BE17 /* Restaurant.h */,
+				8F1B0798157577BE0018BE17 /* Restaurant.m */,
+				8F1B079A157577D10018BE17 /* Location.h */,
+				8F1B079B157577D10018BE17 /* Location.m */,
+				8F1B079D157577E10018BE17 /* Meal.h */,
+				8F1B079E157577E10018BE17 /* Meal.m */,
+				8F5003C21575800E00AF1586 /* OpeningHours.h */,
+				8F5003C31575800E00AF1586 /* OpeningHours.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		8FA65CB5155F9EFF00D4FC83 /* Logo */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +215,9 @@
 				8FCEEDD3155F338F00516B91 /* MainStoryboard.storyboard */,
 				8FCEEDD6155F338F00516B91 /* Food_StarViewController.h */,
 				8FCEEDD7155F338F00516B91 /* Food_StarViewController.m */,
+				8F1B078F157574D40018BE17 /* Food-StarTableViewController.h */,
+				8F1B0790157574D40018BE17 /* Food-StarTableViewController.m */,
+				8F1B0793157575660018BE17 /* Data */,
 				8FCEEDC8155F338F00516B91 /* Supporting Files */,
 			);
 			path = "Food-Star";
@@ -387,6 +423,12 @@
 				8FCEEE18155F342B00516B91 /* SBJsonTokeniser.m in Sources */,
 				8FCEEE19155F342B00516B91 /* SBJsonUTF8Stream.m in Sources */,
 				8FCEEE1A155F342B00516B91 /* SBJsonWriter.m in Sources */,
+				8F1B0791157574D40018BE17 /* Food-StarTableViewController.m in Sources */,
+				8F1B07961575757B0018BE17 /* Model.xcdatamodeld in Sources */,
+				8F1B0799157577BE0018BE17 /* Restaurant.m in Sources */,
+				8F1B079C157577D10018BE17 /* Location.m in Sources */,
+				8F1B079F157577E10018BE17 /* Meal.m in Sources */,
+				8F5003C41575800E00AF1586 /* OpeningHours.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +529,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Food-Star/Food-Star-Prefix.pch";
 				INFOPLIST_FILE = "Food-Star/Food-Star-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -502,6 +545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Food-Star/Food-Star-Prefix.pch";
 				INFOPLIST_FILE = "Food-Star/Food-Star-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -576,6 +620,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F1B07941575757B0018BE17 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F1B07951575757B0018BE17 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8F1B07951575757B0018BE17 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8FCEEDB4155F338E00516B91 /* Project object */;
 }
